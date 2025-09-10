@@ -1,0 +1,23 @@
+git init -- used for intialising the git in local to track the files
+git status -- to know the status of files
+git add .    -- it will add all the files in the directory to the staging
+git add filename  -- it will add particular file only to the staging
+git commit -m "This is the first commit"   _ commiting the files to git(kind of final file)
+git log -- to check the commited logs
+
+git checkout commitid --- it will revert back to previous version of the provided commit id
+git rm --cached filename -- to remove the file from staging
+
+git config --global user.name "DasthaGiri"  -- configuring username/Author
+git config --global user.email "dasthagiri2105@gmail.com"  -- configuring user email
+
+git bracnh branchname  -- it will create a new branch
+git checkout -b 'branchname'  -- it will create and switch the branch
+git checkout main -- switching the branch
+git merge branchname -- to merge the branch with main in fast forward
+
+
+remote repo login
+------------------
+git remote add origin https://github.com/dasthagirigithub/mydevops.git
+git push -u origin master/main  -- to push the files to remote repo
